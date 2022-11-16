@@ -1,24 +1,23 @@
 # flashcard-app
 
+## Demo
 ## Project setup
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
 ```
 yarn build
 ```
+### Description
+Application in vue.js.
+App show flashCards. You can delete card, add a new flash card, shuffle and reset shuffle.
+The application can be helpful in teaching and remembering better 
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Built with
+* Vue.js
