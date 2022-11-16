@@ -1,13 +1,15 @@
 <template>
   <div class="addwrapper">
     <p>Add new Card</p>
-    <input v-model="question" placeholder="Question" />
+    <form @submit.prevent="addCard()">
+      <input v-model="question" placeholder="Question" />
 
-    <input v-model="answers" placeholder="answer1, answer2" />
+      <input v-model="answers" placeholder="answer1, answer2" />
 
-    <input v-model="correctAnswer" placeholder="Correct answer" />
-    <div class="error">{{ error && error }}</div>
-    <button class="addButton" @click="addCard">Add</button>
+      <input v-model="correctAnswer" placeholder="Correct answer" />
+      <div class="error">{{ error && error }}</div>
+      <button class="addButton">Add</button>
+    </form>
   </div>
 </template>
 <script>
