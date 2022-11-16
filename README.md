@@ -1,17 +1,11 @@
 # flashcard-app
 
 ## Demo
-## Project setup
+### Project setup
 
 ```
 yarn install
-```
-
-```
 yarn serve
-```
-
-```
 yarn build
 ```
 ### Description
